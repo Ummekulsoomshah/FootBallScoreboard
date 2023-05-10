@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="coulmns-div">
+            <h3>HOME</h3>
+            <div class="scorebackground">
+                <h1 class="score" id="home-team-score">0</h1>
+            </div>
+            <div class="pints-section">
+                <p class="points" onclick="addone1()">+1</p>
+                <p class="points" onclick="addtwo1()">+2</p>
+                <p class="points" onclick="addthree1()">+3</p>
+            </div>
+        </div>
+        <div class="button-div">
+            <button onclick="reset()">Reset Score</button>
+        </div>
+    
+        <div class="coulmns-div">
+            <h3>QUEST</h3>
+            <div class="scorebackground">
+                <h1 class="score" id="guest-team-score">0</h1>
+            </div>
+            <div class="pints-section">
+                <p class="points" onclick="addone()">+1</p>
+                <p class="points" onclick="addtwo()">+2</p>
+                <p class="points" onclick="addthree()">+3</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
